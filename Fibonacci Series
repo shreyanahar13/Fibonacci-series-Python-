@@ -1,0 +1,15 @@
+n = int(input("Enter the  number of terms "))
+x = 0
+y = 1
+z = 0
+if n <= 0:
+   print("Please enter a positive integer")
+elif n == 1:
+   print(x)
+else:
+   while z < n:
+       print(x)
+       sum = x + y
+       x = y
+       y = sum
+       z=z+1
